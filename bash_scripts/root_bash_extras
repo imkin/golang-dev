@@ -1,0 +1,4 @@
+# powerline bash script from https://github.com/imkin/bash-powerline
+if [ -f ~/bash_powerline02.sh ];  then
+   source ~/bash_powerline02.sh
+fi

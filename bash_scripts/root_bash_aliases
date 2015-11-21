@@ -1,0 +1,11 @@
+# automatic sudo
+if [ -f /usr/bin/sudo ]; then
+   alias aptitude='sudo aptitude -o Acquire::ForceIPv4=true'
+   alias service='sudo service'
+   alias init='sudo init'
+fi  
+alias search='aptitude search'
+alias install='aptitude install '
+alias remove='aptitude remove'
+alias reinstall='aptitude reinstall'
+alias update='aptitude update'
