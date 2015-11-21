@@ -1,5 +1,5 @@
 from ubuntu:15.10
-ENV LDAP_USER=dbhanushali
+ENV LDAP_USER=dev
 ENV LDAP_ID=2051813
 ENV LDAP_HOME=/home/$LDAP_USER
 ADD bash_scripts  /tmp/bash_scripts
